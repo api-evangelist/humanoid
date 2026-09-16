@@ -24,13 +24,12 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/humanoid.png
 name: Humanoid
 description: Humanoid was surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. As of the 2026-07-19 enrichment pass its associated domain
-  speakertext.com no longer serves a live product. The domain resolves (HTTP 200) but sits on GoDaddy
-  parking infrastructure (IPs 15.197.148.33 / 3.33.130.190, ns65/ns66.domaincontrol.com nameservers)
-  and every path — including /.well-known/* and fabricated paths — returns an identical parking lander
-  that redirects to /lander (wildcard soft-404). No API, developer portal, documentation, OpenAPI,
-  SDKs, or discovery surface could be found. The company appears defunct/inactive; there is no
-  enrichable API surface at this time.
+  network as a stub for enrichment. As of the 2026-07-19 enrichment pass its associated domain speakertext.com
+  no longer serves a live product. The domain resolves (HTTP 200) but sits on GoDaddy parking infrastructure
+  (IPs 15.197.148.33 / 3.33.130.190, ns65/ns66.domaincontrol.com nameservers) and every path — including
+  /.well-known/* and fabricated paths — returns an identical parking lander that redirects to /lander
+  (wildcard soft-404). No API, developer portal, documentation, OpenAPI, SDKs, or discovery surface could
+  be found. The company appears defunct/inactive; there is no enrichable API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/humanoid/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -42,9 +41,9 @@ x-website-status: parked
 x-enrichment-status: no-surface
 x-enrichment-last-run: '2026-07-20'
 x-enrichment-notes: speakertext.com resolves to a GoDaddy parked-domain lander with wildcard soft-404
-  (every path returns HTTP 200 with the same 114-byte parking HTML that redirects to /lander;
-  /.well-known/openid-configuration returns text/html not JSON); NS ns65/ns66.domaincontrol.com;
-  re-confirmed 2026-07-20. No live product or API surface found.
+  (every path returns HTTP 200 with the same 114-byte parking HTML that redirects to /lander; /.well-known/openid-configuration
+  returns text/html not JSON); NS ns65/ns66.domaincontrol.com; re-confirmed 2026-07-20. No live product
+  or API surface found.
 x-enrichment:
   date: '2026-07-20'
   status: nochange
@@ -52,7 +51,7 @@ x-enrichment:
   pass: local-v1
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
 - Portfolio Company
@@ -69,3 +68,4 @@ maintainers:
 common:
 - type: Website
   url: https://speakertext.com
+x-status: defunct
