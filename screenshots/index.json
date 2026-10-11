@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "humanoid",
+    "captured_at": "2026-10-11T185834",
+    "source_url": "https://speakertext.com",
+    "source_type": "Website",
+    "file": "humanoid-2026-10-11T185834.png",
+    "bytes": 87555,
+    "capture": "playwright-local"
+  }
+]
